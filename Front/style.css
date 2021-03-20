@@ -11,14 +11,27 @@
     background-size: cover;
     position: absolute;
 }
+.daAra-logo{
+    width: 380px;
+    height: fit-content;
+    position: relative;
+    margin: 6% auto;
+    background: white;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    overflow: hidden;
+    margin-bottom: 0;
+}
 .form-wrap {
     width: 380px;
     height: 480px;
     position: relative;
-    margin: 6% auto;
-    background: #fff;
+    margin: 13% auto;
+    background: white;
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 5px;
     overflow: hidden;
+    margin-top: 0;
 }
 .button-wrap {
     width: 230px;
@@ -41,7 +54,7 @@
     position: absolute;
     width: 110px;
     height: 100%;
-    background: linear-gradient(to right, #ff105f, #ffad06);
+    background: linear-gradient(to right, #02cbfde8, #7bffe9);
     border-radius: 30px;
     transition: .5s;
 }
@@ -74,7 +87,7 @@
     cursor: pointer;
     display: block;
     margin: auto;
-    background: linear-gradient(to right, #ff105f, #ffad06);
+    background: linear-gradient(to right, #02cbfde8, #7bffe9);
     border: 0;
     outline: none;
     border-radius: 30px;
