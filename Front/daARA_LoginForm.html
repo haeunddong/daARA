@@ -21,15 +21,14 @@
                     <button type="button" class="togglebtn" onclick="login()">LOG IN</button>
                     <button type="button" class="togglebtn" onclick="register()">REGISTER</button>
                 </div>
-                <div class="social-icons">
+                <!--<div class="social-icons">
                     <img src="img/fb.png" alt="facebook">
                     <img src="img/gl.png" alt="google">
-                </div>
+                </div>-->
                 <form id="login" action="" class="input-group">
-                    <input type="text" id= "inputUsername" class="input-field" placeholder="User Email" required>
-                    <input type="password" id= "inputPassword" class="input-field" placeholder="Enter Password" required>
-                    <input type="checkbox" class="checkbox"><span>Remember Password</span>
-                    <button class="submit" onclick="loginButton()">Login</button>
+                    <input type="text" class="input-field" id="inputUsername"  placeholder="Email address" name="username" required autofocus>
+                    <input type="password" class="input-field" id="inputPassword"  placeholder="Password" name="password" required>    
+                    <button class="submit" type="button" onclick="loginButton()">Sign in</button>
                 </form>
                 <form id="register" action="" class="input-group">
                     <input type="personalname" class="input-field" id="personalnameRegister" placeholder="Name" pattern=".*" required>
